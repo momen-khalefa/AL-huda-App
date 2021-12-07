@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/RLTopLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="338dp"
+                    android:background="@drawable/rectangle_blue"
+                    android:visibility="visible">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/lazmk_word_back"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_centerVertical="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:padding="5dp"
+                            ads:srcCompat="@drawable/icback_ar"
+                            tools:ignore="VectorDrawableCompat" />
+
+                        <ImageView
+                            android:id="@+id/imInfo"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_margin="10dp"
+                            android:padding="10dp"
+                            android:visibility="gone"
+                            ads:srcCompat="@drawable/ic_about"
+                            ads:tint="@color/white"
+                            tools:ignore="VectorDrawableCompat" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp">
+
+                        <RelativeLayout
+                            android:id="@+id/LLOpenInstagram"
+                            android:layout_width="276dp"
+                            android:layout_height="225dp"
+                            android:layout_centerInParent="true"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginEnd="15dp"
+                            android:background="@drawable/rectangle_white"
+                            android:padding="10dp"
+                            android:paddingTop="100dp">
+
+                            <ImageView
+                                android:id="@+id/IMIcon"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/lazmek"
+                                ads:srcCompat="@drawable/lazmek" />
+
+                        </RelativeLayout>
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/lnr_main"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/RLTopLayout"
+                    android:layout_marginTop="-50dp"
+                    android:orientation="vertical"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:paddingBottom="10dp">
+
+                    <RelativeLayout
+                        android:id="@+id/about_rv"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:background="@drawable/rectangle_white"
+                        android:elevation="3dp"
+                        android:padding="@dimen/layout_margin_10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:elevation="3dp"
+                                android:gravity="center"
+                                android:text="محلات ومعارض لازمك داخل محطات الهدى للمحروقات بفروعها :\n
+الماصيون : 0599223222\n
+الطيرة : 0594382222\n
+اريحا : 0597535353 \n
+البالوع : 0599328111\n
+بيت عور التحتا : 0594300300\n
+تأسست شركة لازمك عام 2012، بهدف توفير جميع لوازم وإكسسوارات المركبات و معدات ومواد البناء والكهرباء و كافة المستلزمات والإحتياجات ذات العلاقة بالبيوت والحدائق، و تمتلك الشركة الان فروعا عديدة في مختلف محافظات وقرى فلسطين من الفرع الرئيسي في حي الماصيون في محافظة رام الله، و حي البالوع في محافظة البيرة، الطيرة، وأريحا وقرية بيت عورالتحتا، و يجري الإعداد الان الى إفتتاح فرعين جديدين في كل من محافظتي عناتا ونابلس، بالاضافة الى ذلك تسعى لازمك الى التطور المستمر في مخططاتها ونشر فروعها في باقي مختلف المحافظات من اجل تقديم اعلى مستويات الخدمة للعملاء و توفير الوقت والجهد.
+مغسلة السيارات
+وتضم بالاضافة الى غسيل السيارات تغيير الاطارات، تغيير فلاتر وزيت وتقع في كل من الماصيون والبالوع.
+"
+                                android:textColor="@color/colorPrimaryDark"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+            </RelativeLayout>
+        </ScrollView>
+    </RelativeLayout>
+</layout>

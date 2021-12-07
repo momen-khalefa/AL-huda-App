@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/RLTopLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="338dp"
+                    android:background="@drawable/rectangle_blue"
+                    android:visibility="visible">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/back_red_word"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_centerVertical="true"
+                            android:layout_margin="10dp"
+                            android:padding="5dp"
+                            ads:srcCompat="@drawable/ic_back"
+                            tools:ignore="VectorDrawableCompat" />
+
+                        <ImageView
+                            android:id="@+id/imInfo"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_margin="10dp"
+                            android:padding="10dp"
+                            android:visibility="gone"
+                            ads:srcCompat="@drawable/ic_about"
+                            ads:tint="@color/white"
+                            tools:ignore="VectorDrawableCompat" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp">
+
+                        <RelativeLayout
+                            android:id="@+id/LLOpenInstagram"
+                            android:layout_width="276dp"
+                            android:layout_height="225dp"
+                            android:layout_centerInParent="true"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginEnd="15dp"
+                            android:background="@drawable/rectangle_white"
+                            android:padding="10dp"
+                            android:paddingTop="100dp">
+
+                            <ImageView
+                                android:id="@+id/IMIcon"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/nnnn"
+                                ads:srcCompat="@drawable/nnnn" />
+
+                        </RelativeLayout>
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/lnr_main"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/RLTopLayout"
+                    android:layout_marginTop="-50dp"
+                    android:orientation="vertical"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:paddingBottom="10dp">
+
+                    <RelativeLayout
+                        android:id="@+id/about_rv"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:background="@drawable/rectangle_white"
+                        android:elevation="3dp"
+                        android:padding="@dimen/layout_margin_10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:elevation="3dp"
+                                android:gravity="center"
+                                android:text="سوبرماركت ريد داخل محطات الهدى للمحروقات بفروعها :
+الماصيون :50-50-295-02 \n
+البالوع :65-10-242-02\n
+الطيرة :00-60-297-02\n
+نابلس :88-99-234-09\n
+اريحا:34-32-232-02\n
+
+تأسست سلسلة ريد في عام 2009 كسوق مركزي للبيع وشراء المواد الغذائية والمواد المنزلية لتلبيه كافة إحتياجات الاسرة الفلسطينية، وتتوزع فروع ريد على مجموعة من محافظات فلسطين إبتداءا من الادراة الإقليمية في حي الماصيون في محافظة رام الله الى كل من البالوع، الطيرة، اريحا و نابلس.  وترتكز إستراتيجية ريد على توفير السلع بعروض واسعار منافسة تناسب كافة العملاء. وتتمتع الفروع ايضا بتوفر أماكن خاصة لمركبات المتسوقين لضمان اكبر قدر من الراحة اثناء التسوق، بالاضافة الى طاقم مؤهل ومدرب لخدمة المتسوقين و تلبية احتياجاتهم.  "
+                                android:textColor="@color/colorPrimaryDark"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+            </RelativeLayout>
+        </ScrollView>
+    </RelativeLayout>
+</layout>

@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/RLTopLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:background="@drawable/rectangle_blue"
+                    android:visibility="visible">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/lazmk_back"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_centerVertical="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:padding="5dp"
+                            ads:srcCompat="@drawable/icback_ar"
+                            tools:ignore="VectorDrawableCompat" />
+                        <ImageView
+                            android:id="@+id/imInfo"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_margin="10dp"
+                            android:padding="10dp"
+                            android:visibility="gone"
+                            ads:srcCompat="@drawable/ic_about"
+                            android:layout_centerVertical="true"
+                            android:layout_alignParentEnd="true"
+                            ads:tint="@color/white"
+                            android:layout_alignParentRight="true"
+                            tools:ignore="VectorDrawableCompat" />
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp">
+                        <RelativeLayout
+                            android:id="@+id/LLOpenInstagram"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:background="@drawable/rectangle_white"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginEnd="15dp"
+                            android:padding="30dp"
+                            android:layout_centerVertical="true">
+
+                            <ImageView
+                                android:id="@+id/IMIcon"
+                                android:layout_width="200dp"
+                                android:layout_height="80dp"
+                                android:layout_centerHorizontal="true"
+                                android:src="@drawable/icon_tr" />
+
+                            <TextView
+                                android:id="@+id/TVTitle"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/IMIcon"
+                                android:layout_centerHorizontal="true"
+                                android:text="@string/lazmek_m"
+                                android:textColor="@color/colorPrimaryDark"
+                                android:textSize="@dimen/text_size_20sp"
+                                android:textStyle="bold" />
+
+                        </RelativeLayout>
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/lnr_main"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/RLTopLayout"
+                    android:layout_marginTop="-50dp"
+                    android:orientation="vertical"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:paddingBottom="10dp">
+
+                    <RelativeLayout
+                        android:id="@+id/lazmek_word"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:background="@drawable/rectangle_white"
+                        android:elevation="3dp">
+
+                        <ImageView
+                            android:id="@+id/imConpanyLogo"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_centerVertical="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:padding="0dp"
+                            android:src="@drawable/lazmek"
+                            ads:srcCompat="@drawable/lazmek" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:layout_toLeftOf="@id/imConpanyLogo"
+                            android:layout_toRightOf="@id/row_l_menu"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+
+                                android:clickable="false"
+                                android:elevation="3dp"
+                                android:text="@string/lazmek_m"
+                                android:textColor="@color/colorPrimaryDark"
+                                android:textIsSelectable="false"
+                                android:textSize="@dimen/text_size_20sp" />
+
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/row_l_menu"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginRight="10dp"
+                            ads:srcCompat="@drawable/ic_arrow_ar"
+                            tools:ignore="VectorDrawableCompat" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/lazmek_menu"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="5dp"
+                        android:background="@drawable/rectangle_white"
+                        android:elevation="3dp">
+
+                        <ImageView
+                            android:id="@+id/imEmail"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_centerVertical="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:background="@drawable/circle"
+                            ads:srcCompat="@drawable/ic_gallery"
+                            tools:ignore="VectorDrawableCompat" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:layout_toLeftOf="@id/imEmail"
+                            android:layout_toRightOf="@id/lazmk_menu_row"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+
+                                android:elevation="3dp"
+                                android:text="@string/MENU"
+                                android:textColor="@color/colorPrimaryDark"
+                                android:textSize="@dimen/text_size_20sp" />
+
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/lazmk_menu_row"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginRight="10dp"
+                            ads:srcCompat="@drawable/ic_arrow_ar"
+                            tools:ignore="VectorDrawableCompat" />
+                    </RelativeLayout>
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="match_parent"
+                        android:layout_height="162dp"
+                        ads:srcCompat="@drawable/lazmek" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="0dp"
+                        android:layout_weight="2"
+                        android:orientation="horizontal"
+                        android:weightSum="3">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="51dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginTop="30dp"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/facebook_lazmek"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_weight="1"
+                                android:padding="0dp"
+                                android:src="@drawable/fb"
+                                ads:srcCompat="@drawable/fb"
+                                tools:ignore="VectorDrawableCompat" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </RelativeLayout>
+        </ScrollView>
+    </RelativeLayout>
+</layout>

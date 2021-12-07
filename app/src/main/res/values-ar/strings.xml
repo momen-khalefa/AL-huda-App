@@ -1,0 +1,84 @@
+<resources>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+    <string name="share_txt">عرض / تحميل هذه الصورة</string>
+    <string name="share_image_via">شارك الملف بواسطة</string>
+    <string name="share_app_message">قم بتحميل جميع الفيديوهات باستخدام هذا التطبيق. التحميل الآن</string>
+    <string name="company_name_title">مجموعة الهدى</string>
+    <string name="company_tag_name">نبذة عن الشركة</string>
+    <string name="email_title">البريد الإلكتروني</string>
+    <string name="email_tag">info@alhuda.com</string>
+    <string name="website_title">موقعنا الالكتروني</string>
+    <string name="website_tag">http://www.alhuda.ps/</string>
+    <string name="privacy_title">سياسة الخصوصية</string>
+    <string name="privacy_tag">أنقر لقراءة سياسة الخصوصية  </string>
+    <string name="about_title"> عن التطبيق</string>
+    <string name="change_lang">تغيير اللغة</string>
+    <string name="hindi">हिंदी</string>
+    <string name="english">English</string>
+    <string name="arabic">العربية</string>
+    <string name="change_your_language">تغيير اللغة</string>
+    <string name="gallery">المعرض</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="stations">محطات الهدى</string>
+    <string name="Rio">الريو كافيه</string>
+    <string name="reef">الريف</string>
+    <string name="card">اطلب بطاقة</string>
+    <string name="totaloil">زيت توتال</string>
+    <string name="report">كشف التعبئة</string>
+    <string name="Info"> عن الشركة</string>
+    <string name="app_name">مجموعة الهدى</string>
+    <string name="email">الإيميل</string>
+    <string name="pasword">كلمة المرور</string>
+    <string name="forgetp">نسيان كلمة المرور ؟</string>
+    <string name="signup">ضيف</string>
+    <string name="newpas">أدخل كلمة السر الجديدة</string>
+    <string name="confirmpass">"قم بإعادة ادخال كلمة السر "</string>
+    <string name="resetpas">تغيير كلمة المرور</string>
+    <string name="ch_email">تعديل الإيميل</string>
+    <string name="new_email">أدخل ايميلك الجديد</string>
+    <string name="ch_phone">تعديل رقم الهاتف</string>
+    <string name="new_phone">قم بإدخال رقم الهاتف الجديد</string>
+    <string name="account">حسابي</string>
+    <string name="prics">أسعار المحروقات</string>
+
+    <!-- my account activity -->
+    <string name="name">الإسم :</string>
+    <string name="phonee">رقم الهاتف :</string>
+    <string name="logout">تسجيل الخروج</string>
+
+
+    <!-- total oil activity -->
+    <string name="Products">منتجاتنا</string>
+    <string name="Our_agents">وكلائنا </string>
+
+    <!-- rio menu activity -->
+    <string name="LOCAITON">المواقع</string>
+    <string name="MENU">القائمة</string>
+
+    <!-- get card activity -->
+    <string name="balance">الرصيد بالشيكل</string>
+    <string name="Car_Number">رقم السيارة</string>
+    <string name="gasoline95">بنزين 95</string>
+    <string name="gasoline98">بنزين 98</string>
+    <string name="diesel">سولار</string>
+    <string name="r_card">طلب البطاقة</string>
+
+
+    <string name="r_rest">مطعم الريف</string>
+    <string name="ch_name">تعديل الإسم</string>
+    <string name="new_name">قم بإدخال اسمك</string>
+    <string name="card_no">رقم البطاقة</string>
+    <string name="total_card">سقف البطاقة</string>
+    <string name="sautes_card">حالة البطاقة</string>
+    <string name="fill_nis">التعبئة ب الشيكل</string>
+    <string name="fill_lit">التعبئة ب الليتر</string>
+    <string name="fill_rep">تقارير التعبئة</string>
+    <string name="red_m">سوبر ماركت ريد</string>
+    <string name="lazmek_m">لازمك</string>
+    <string name="kasho">محمص وبن كاشو</string>
+    <string name="back">الرجوع</string>
+</resources>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.alhud.alhudastore">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.CALL_PRIVILEGED"
+        tools:ignore="ProtectedPermissions" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon_tr"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon_tr"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".main">
+
+        </activity>
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
+
+        </activity>
+        <activity android:name=".restpass">
+        </activity>
+        <activity android:name=".riocafee.MainActivity_rio">
+        </activity>
+        <activity android:name=".staiton.MainActivity_staiton">
+        </activity>
+        <activity android:name=".price.MainActivity_price">
+        </activity>
+        <activity android:name=".pages.myAccount">
+        </activity>
+        <activity android:name=".pages.alreef">
+        </activity>
+        <activity android:name=".pages.getcard">
+        </activity>
+        <activity android:name=".pages.info_page">
+        </activity>
+        <activity android:name=".pages.total_oil">
+        </activity>
+        <activity android:name=".riocafee.MainActivity_menu_rio">
+        </activity>
+        <activity android:name=".riocafee.rio_menu">
+        </activity>
+        <activity android:name=".myaccountp.change_email">
+        </activity>
+        <activity android:name=".myaccountp.change_name">
+        </activity>
+        <activity android:name=".myaccountp.change_pass">
+        </activity>
+        <activity android:name=".myaccountp.change_phone">
+        </activity>
+        <activity android:name=".alreef.MainActivity_menu_alreef">
+        </activity>
+        <activity android:name=".totaloil.MainActivity_menu_totaloil">
+        </activity>
+        <activity android:name=".reports.MainActivity_report">
+        </activity>
+        <activity android:name=".reports.show_reports">
+        </activity>
+        <activity android:name=".reports.reports_table"
+            android:theme="@style/App">
+
+        </activity>
+        <activity android:name=".pages.about_co">
+        </activity>
+        <activity android:name=".kasho.kasho_menu">
+        </activity>
+        <activity android:name=".kasho.kasho_word">
+        </activity>
+        <activity android:name=".alreef.alreef_word">
+        </activity>
+        <activity android:name=".lazmek.l_word">
+        </activity>
+        <activity android:name=".lazmek.menu">
+        </activity>
+        <activity android:name=".redSlider.red_menu">
+        </activity>
+        <activity android:name=".redSlider.red_word">
+        </activity>
+        <activity android:name=".pages.user_view">
+        </activity>
+        <activity android:name=".staiton.stiton_menu">
+        </activity>
+        <activity android:name=".totaloil.total_word">
+        </activity>
+    </application>
+
+</manifest>

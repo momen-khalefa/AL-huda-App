@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/RLTopLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:background="@drawable/rectangle_blue"
+                    android:visibility="visible">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:id="@+id/back_303"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_margin="10dp"
+                            android:padding="5dp"
+                            android:layout_centerVertical="true"
+                            ads:srcCompat="@drawable/ic_back"
+                            tools:ignore="VectorDrawableCompat" />
+                        <ImageView
+                            android:id="@+id/imInfo"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_margin="10dp"
+                            android:padding="10dp"
+                            android:visibility="gone"
+                            ads:srcCompat="@drawable/ic_about"
+                            android:layout_centerVertical="true"
+                            android:layout_alignParentEnd="true"
+                            ads:tint="@color/white"
+                            android:layout_alignParentRight="true"
+                            tools:ignore="VectorDrawableCompat" />
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp">
+                        <RelativeLayout
+                            android:id="@+id/LLOpenInstagram"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:background="@drawable/rectangle_white"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginEnd="15dp"
+                            android:padding="30dp"
+                            android:layout_centerVertical="true">
+
+                            <ImageView
+                                android:id="@+id/IMIcon"
+                                android:layout_width="200dp"
+                                android:layout_height="80dp"
+                                android:layout_centerHorizontal="true"
+                                android:src="@drawable/icon_tr" />
+
+                            <TextView
+                                android:id="@+id/TVTitle"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/IMIcon"
+                                android:layout_centerHorizontal="true"
+                                android:text="@string/app_name"
+                                android:textColor="@color/colorPrimaryDark"
+                                android:textSize="@dimen/about_us_title"
+                                android:textStyle="bold" />
+
+                        </RelativeLayout>
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/lnr_main"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/RLTopLayout"
+                    android:layout_marginTop="-50dp"
+                    android:orientation="vertical"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:paddingBottom="10dp">
+
+                    <RelativeLayout
+                        android:id="@+id/my_acc"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:background="@drawable/rectangle_white"
+                        android:elevation="3dp">
+
+                        <ImageView
+                            android:id="@+id/imConpanyLogo"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_centerVertical="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:padding="0dp"
+                            android:src="@drawable/acc" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_margin="10dp"
+                            android:layout_toLeftOf="@+id/a_ac"
+                            android:layout_toRightOf="@+id/imConpanyLogo"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:elevation="3dp"
+
+                                android:text="@string/account"
+                                android:textColor="@color/colorPrimaryDark"
+                                android:textSize="@dimen/about_above_txt_size" />
+
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/a_ac"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginRight="10dp"
+                            ads:srcCompat="@drawable/ic_arrow"
+                            tools:ignore="VectorDrawableCompat" />
+                    </RelativeLayout>
+
+
+                    <RelativeLayout
+                        android:id="@+id/full_repo"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="5dp"
+                        android:background="@drawable/rectangle_white"
+                        android:elevation="3dp">
+
+                        <ImageView
+                            android:id="@+id/imEmail"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_centerVertical="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginLeft="10dp"
+                            ads:srcCompat="@drawable/paper"
+                            tools:ignore="VectorDrawableCompat" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:layout_toLeftOf="@+id/a_ful"
+                            android:layout_toRightOf="@id/imEmail"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:elevation="3dp"
+
+                                android:text="@string/report"
+                                android:textColor="@color/colorPrimaryDark"
+                                android:textSize="@dimen/about_above_txt_size" />
+
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/a_ful"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginRight="10dp"
+                            ads:srcCompat="@drawable/ic_arrow"
+                            tools:ignore="VectorDrawableCompat" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/get_cardd"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="5dp"
+                        android:background="@drawable/rectangle_white"
+                        android:elevation="3dp">
+
+                        <ImageView
+                            android:id="@+id/imWebsiteLogo"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_centerVertical="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginLeft="10dp"
+                            ads:srcCompat="@drawable/card"
+                            tools:ignore="VectorDrawableCompat" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_margin="10dp"
+                            android:layout_toRightOf="@+id/imWebsiteLogo"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:elevation="3dp"
+
+                                android:text="@string/card"
+                                android:textColor="@color/colorPrimaryDark"
+                                android:textSize="@dimen/about_above_txt_size" />
+
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/a_card"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginRight="10dp"
+                            ads:srcCompat="@drawable/ic_arrow"
+                            tools:ignore="VectorDrawableCompat" />
+                    </RelativeLayout>
+
+                </LinearLayout>
+            </RelativeLayout>
+        </ScrollView>
+    </RelativeLayout>
+</layout>

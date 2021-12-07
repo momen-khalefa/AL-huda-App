@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "179845814862",
+    "project_id": "al-huda-group",
+    "storage_bucket": "al-huda-group.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:179845814862:android:412b6ea7022f358f84c11f",
+        "android_client_info": {
+          "package_name": "com.alhud.alhudastore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "179845814862-d128t8g8qbrbg6ktc2o74paamp617i32.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVdvMjNdIv0CrC6a4sSwKMfuxwrV8Gh6w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "179845814862-d128t8g8qbrbg6ktc2o74paamp617i32.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
